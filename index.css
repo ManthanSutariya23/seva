@@ -1,0 +1,141 @@
+/* body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.background-container {
+  background-image: url("1.jpg");
+
+  background-size: cover;
+
+ 
+  background-position: center;
+
+ 
+  height: 100%;
+
+ 
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.my-form {
+  max-width: 400px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.my-form h2 {
+  margin-bottom: 20px;
+}
+
+.my-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.my-form input,
+.my-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.my-form button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+} */
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.background-container {
+  /* Set the image URL in url('path/to/your/image.jpg') */
+  background-image: url("1.jpg");
+
+  /* Ensure the image covers the entire viewport */
+  background-size: cover;
+
+  /* Center the image horizontally and vertically */
+  background-position: center;
+
+  /* Set the minimum height to 100% to cover the entire viewport */
+  min-height: 100vh;
+
+  /* Optional: Add additional styling or set content color to be readable */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  background-color: rgba(
+    255,
+    255,
+    255
+  ); /* Adjust the alpha (opacity) value as needed */
+  padding: 20px;
+  height: 100vb;
+  text-align: center;
+}
+
+h2,
+h4 {
+  margin-bottom: 10px;
+  background-image: linear-gradient(to bottom left, #553c9a, #ee4b2b);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.content p {
+  margin: 0;
+}
+.my-form {
+  max-width: 400px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.my-form h2 {
+  margin-bottom: 20px;
+}
+
+.my-form input,
+select {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid rgb(232, 221, 221);
+  border-radius: 10px;
+}
+
+.my-form button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

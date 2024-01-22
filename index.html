@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Div with Background Image and Text</title>
+</head>
+
+<body>
+    <div class="blog-img"
+        style="background-image: url('1.jpg'); background-size: cover; display: flex; align-items: center; justify-content: center; height: 100vh; background-position: center;  ">
+        <div
+            style="background-color: rgba(255, 255, 255, 0.3); border-radius: 10px; height: 100%;width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
+            <div>
+                <form class="my-form">
+                    <h2 class="animate__animated animate__backInDown">Suhradam Mandir Pran Pratishtha</h2>
+                    <h4 class="animate__animated animate__backInUp">સેવા યજ્ઞ</h4>
+
+                    <input class="animate__animated animate__backInLeft" type="text" id="name" name="name"
+                        placeholder="Your Name">
+
+                    <input class="animate__animated animate__backInRight" type="tel" id="mobileNumber"
+                        name="mobileNumber" pattern="[0-9]{10}" placeholder="07834563734" required>
+
+                    <select class="animate__animated animate__backInLeft" id="selectionBox" name="selectionBox"
+                        required>
+                        <option value="option1">-- Select Seva --</option>
+                        <option value="option1">Driver</option>
+                        <option value="option2">Logistic</option>
+                        <option value="option3">Accomodation</option>
+                        <option value="option3">Other</option>
+                    </select>
+
+                    <input class="animate__animated animate__backInRight" type="date" id="date" name="date" required>
+
+                    <input class="animate__animated animate__backInLeft" type="time" id="timeSlot" name="timeSlot"
+                        required>
+
+                    <button class="animate__animated animate__backInUp" type="submit">Submit</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
